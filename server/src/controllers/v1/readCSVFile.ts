@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import multer from 'multer';
 import csvParser from 'csv-parser';
-import { csv } from '../../models/CSVSchems';
+import { csv } from '../../models/CSVSchema';
 
 const router = express.Router();
 
